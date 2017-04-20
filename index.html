@@ -4,41 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Assignment 2: Seattle AirBnb</title>
 
-    <!-- If you want to use a CSS framework, load it here (or in CSS) -->
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <!--Your stylesheet-->
-    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.4/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.js"></script>
+    <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
 
-    <!--Plotly CDN-->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-    <!-- Load jQuery library -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="css/main.css" />
     <!--Your script-->
     <script src="js/main.js"></script>
 </head>
 
 <body>
-    <!-- Create a header that describes the project -->
     <header id = 'index-banner'>
         <h1>Assignment 2: Seattle AirBnb</h1>
         <h2>By Ashlyn Opgrande</h2>
     </header>
-    <!-- Create a container object to hold the main section of your page -->
     <container>
-        <!-- Create a div with an id of bubbleMap in which to render your map -->
-        <h2>Question 1</h2>
-        <div class="boxed"id="chart1">
+        <h2>Seattle AirBnb Data</h2>
+        <div>
+            <select id="inds">
+            <option value="Price" selected="selected">Price</option>
+            <option value="NumReviews">Amount of Reviews</option>
+            <option value="Rating">Ratings</option>
+            <option value="Beds">Beds</option>
+            </select>
+            <div id="place">
+                <p>Select Neighborhoods</p>
+                    <input class="place" id="myCheck" type="checkbox" name="vehicle" value="Ballard"> Ballard<br>
+                    <input class="place" id="myCheck" type="checkbox" name="vehicle" value="Beacon Hill"> Beacon Hill<br>
+                    <input class="place" id="myCheck" type="checkbox" name="vehicle" value="Capitol Hill"> Capitol Hill<br>
+            </div>
         </div>
-        <h2>Question 2</h2>
-        <div class="boxed" id="chart2">
-        </div>
-        <h2>Question 3</h2>
-        <div class="boxed" id="chart3">
+        <div id="vis">
         </div>
     </container>
 </body>

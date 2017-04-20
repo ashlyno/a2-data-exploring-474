@@ -1,0 +1,17 @@
+body { font: 12px Arial;}
+
+h1, h2 {
+    padding-left: 10px;
+}
+
+#inds{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#place {
+    float: right;
+    margin-right: 40px;
+}
+.bar{
+    fill:lightskyblue;
+}

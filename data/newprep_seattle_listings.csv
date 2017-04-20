@@ -1,0 +1,786 @@
+Neighbourhood_Group,Neighbourhood,Bed_Type,Type,Value
+Ballard,Adams,Futon,Price,77.6
+Ballard,Adams,Futon,NumReviews,64
+Ballard,Adams,Futon,Rating,95.4
+Ballard,Adams,Futon,Beds,1
+Ballard,Adams,Futon,Bedrooms,1
+Ballard,Adams,Real Bed,Price,142
+Ballard,Adams,Real Bed,NumReviews,16.7
+Ballard,Adams,Real Bed,Rating,93.8
+Ballard,Adams,Real Bed,Beds,2
+Ballard,Adams,Real Bed,Bedrooms,1.5
+Ballard,Loyal Heights,Real Bed,Price,133
+Ballard,Loyal Heights,Real Bed,NumReviews,23.1
+Ballard,Loyal Heights,Real Bed,Rating,96
+Ballard,Loyal Heights,Real Bed,Beds,1.8
+Ballard,Loyal Heights,Real Bed,Bedrooms,1.5
+Ballard,Sunset Hill,Real Bed,Price,188.4
+Ballard,Sunset Hill,Real Bed,NumReviews,35.5
+Ballard,Sunset Hill,Real Bed,Rating,93.4
+Ballard,Sunset Hill,Real Bed,Beds,1.8
+Ballard,Sunset Hill,Real Bed,Bedrooms,1.5
+Ballard,West Woodland,Futon,Price,70
+Ballard,West Woodland,Futon,NumReviews,7
+Ballard,West Woodland,Futon,Rating,91
+Ballard,West Woodland,Futon,Beds,1
+Ballard,West Woodland,Futon,Bedrooms,1
+Ballard,West Woodland,Pull-out Sofa,Price,63.5
+Ballard,West Woodland,Pull-out Sofa,NumReviews,4
+Ballard,West Woodland,Pull-out Sofa,Rating,96
+Ballard,West Woodland,Pull-out Sofa,Beds,1
+Ballard,West Woodland,Pull-out Sofa,Bedrooms,0.5
+Ballard,West Woodland,Real Bed,Price,130.4
+Ballard,West Woodland,Real Bed,NumReviews,36.4
+Ballard,West Woodland,Real Bed,Rating,95
+Ballard,West Woodland,Real Bed,Beds,1.9
+Ballard,West Woodland,Real Bed,Bedrooms,1.4
+Ballard,Whittier Heights,Couch,Price,75
+Ballard,Whittier Heights,Couch,NumReviews,2
+Ballard,Whittier Heights,Couch,Rating,100
+Ballard,Whittier Heights,Couch,Beds,1
+Ballard,Whittier Heights,Couch,Bedrooms,1
+Ballard,Whittier Heights,Futon,Price,68
+Ballard,Whittier Heights,Futon,NumReviews,72
+Ballard,Whittier Heights,Futon,Rating,93
+Ballard,Whittier Heights,Futon,Beds,1
+Ballard,Whittier Heights,Futon,Bedrooms,1
+Ballard,Whittier Heights,Real Bed,Price,131.5
+Ballard,Whittier Heights,Real Bed,NumReviews,42.3
+Ballard,Whittier Heights,Real Bed,Rating,96.2
+Ballard,Whittier Heights,Real Bed,Beds,1.8
+Ballard,Whittier Heights,Real Bed,Bedrooms,1.5
+Beacon Hill,Holly Park,Real Bed,Price,100.2
+Beacon Hill,Holly Park,Real Bed,NumReviews,8.7
+Beacon Hill,Holly Park,Real Bed,Rating,90.6
+Beacon Hill,Holly Park,Real Bed,Beds,1.5
+Beacon Hill,Holly Park,Real Bed,Bedrooms,1.3
+Beacon Hill,Mid-Beacon Hill,Futon,Price,55
+Beacon Hill,Mid-Beacon Hill,Futon,NumReviews,1
+Beacon Hill,Mid-Beacon Hill,Futon,Rating,100
+Beacon Hill,Mid-Beacon Hill,Futon,Beds,1
+Beacon Hill,Mid-Beacon Hill,Futon,Bedrooms,1
+Beacon Hill,Mid-Beacon Hill,Real Bed,Price,79.6
+Beacon Hill,Mid-Beacon Hill,Real Bed,NumReviews,15.2
+Beacon Hill,Mid-Beacon Hill,Real Bed,Rating,92.8
+Beacon Hill,Mid-Beacon Hill,Real Bed,Beds,2.1
+Beacon Hill,Mid-Beacon Hill,Real Bed,Bedrooms,1.3
+Beacon Hill,North Beacon Hill,Airbed,Price,57.5
+Beacon Hill,North Beacon Hill,Airbed,NumReviews,25.8
+Beacon Hill,North Beacon Hill,Airbed,Rating,94.5
+Beacon Hill,North Beacon Hill,Airbed,Beds,1
+Beacon Hill,North Beacon Hill,Airbed,Bedrooms,1
+Beacon Hill,North Beacon Hill,Futon,Price,78
+Beacon Hill,North Beacon Hill,Futon,NumReviews,35
+Beacon Hill,North Beacon Hill,Futon,Rating,98
+Beacon Hill,North Beacon Hill,Futon,Beds,1
+Beacon Hill,North Beacon Hill,Futon,Bedrooms,1
+Beacon Hill,North Beacon Hill,Real Bed,Price,111.8
+Beacon Hill,North Beacon Hill,Real Bed,NumReviews,26.7
+Beacon Hill,North Beacon Hill,Real Bed,Rating,94.4
+Beacon Hill,North Beacon Hill,Real Bed,Beds,1.9
+Beacon Hill,North Beacon Hill,Real Bed,Bedrooms,1.4
+Beacon Hill,South Beacon Hill,Pull-out Sofa,Price,45
+Beacon Hill,South Beacon Hill,Pull-out Sofa,NumReviews,127
+Beacon Hill,South Beacon Hill,Pull-out Sofa,Rating,91
+Beacon Hill,South Beacon Hill,Pull-out Sofa,Beds,1
+Beacon Hill,South Beacon Hill,Pull-out Sofa,Bedrooms,1
+Beacon Hill,South Beacon Hill,Real Bed,Price,150
+Beacon Hill,South Beacon Hill,Real Bed,NumReviews,34
+Beacon Hill,South Beacon Hill,Real Bed,Rating,92
+Beacon Hill,South Beacon Hill,Real Bed,Beds,3
+Beacon Hill,South Beacon Hill,Real Bed,Bedrooms,3
+Capitol Hill,Broadway,Airbed,Price,110
+Capitol Hill,Broadway,Airbed,NumReviews,0.3
+Capitol Hill,Broadway,Airbed,Rating,100
+Capitol Hill,Broadway,Airbed,Beds,1
+Capitol Hill,Broadway,Airbed,Bedrooms,1
+Capitol Hill,Broadway,Couch,Price,52.7
+Capitol Hill,Broadway,Couch,NumReviews,9.3
+Capitol Hill,Broadway,Couch,Rating,94
+Capitol Hill,Broadway,Couch,Beds,1
+Capitol Hill,Broadway,Couch,Bedrooms,1
+Capitol Hill,Broadway,Futon,Price,93.3
+Capitol Hill,Broadway,Futon,NumReviews,27.5
+Capitol Hill,Broadway,Futon,Rating,89.5
+Capitol Hill,Broadway,Futon,Beds,1
+Capitol Hill,Broadway,Futon,Bedrooms,1
+Capitol Hill,Broadway,Pull-out Sofa,Price,85
+Capitol Hill,Broadway,Pull-out Sofa,NumReviews,11.5
+Capitol Hill,Broadway,Pull-out Sofa,Rating,94.5
+Capitol Hill,Broadway,Pull-out Sofa,Beds,1
+Capitol Hill,Broadway,Pull-out Sofa,Bedrooms,1
+Capitol Hill,Broadway,Real Bed,Price,144.7
+Capitol Hill,Broadway,Real Bed,NumReviews,24.7
+Capitol Hill,Broadway,Real Bed,Rating,93.7
+Capitol Hill,Broadway,Real Bed,Beds,1.4
+Capitol Hill,Broadway,Real Bed,Bedrooms,1.1
+Capitol Hill,Madison Park,Real Bed,Price,191
+Capitol Hill,Madison Park,Real Bed,NumReviews,10.5
+Capitol Hill,Madison Park,Real Bed,Rating,95.8
+Capitol Hill,Madison Park,Real Bed,Beds,2.6
+Capitol Hill,Madison Park,Real Bed,Bedrooms,1.8
+Capitol Hill,Montlake,Real Bed,Price,192.3
+Capitol Hill,Montlake,Real Bed,NumReviews,43.5
+Capitol Hill,Montlake,Real Bed,Rating,95.3
+Capitol Hill,Montlake,Real Bed,Beds,2.8
+Capitol Hill,Montlake,Real Bed,Bedrooms,2
+Capitol Hill,Portage Bay,Futon,Price,150
+Capitol Hill,Portage Bay,Futon,NumReviews,17
+Capitol Hill,Portage Bay,Futon,Rating,99
+Capitol Hill,Portage Bay,Futon,Beds,1
+Capitol Hill,Portage Bay,Futon,Bedrooms,1
+Capitol Hill,Portage Bay,Real Bed,Price,285
+Capitol Hill,Portage Bay,Real Bed,NumReviews,4.9
+Capitol Hill,Portage Bay,Real Bed,Rating,94.4
+Capitol Hill,Portage Bay,Real Bed,Beds,2.5
+Capitol Hill,Portage Bay,Real Bed,Bedrooms,2.2
+Capitol Hill,Stevens,Pull-out Sofa,Price,90
+Capitol Hill,Stevens,Pull-out Sofa,NumReviews,0
+Capitol Hill,Stevens,Pull-out Sofa,Rating,
+Capitol Hill,Stevens,Pull-out Sofa,Beds,1
+Capitol Hill,Stevens,Pull-out Sofa,Bedrooms,1
+Capitol Hill,Stevens,Real Bed,Price,152.5
+Capitol Hill,Stevens,Real Bed,NumReviews,21.1
+Capitol Hill,Stevens,Real Bed,Rating,93.9
+Capitol Hill,Stevens,Real Bed,Beds,1.7
+Capitol Hill,Stevens,Real Bed,Bedrooms,1.4
+Cascade,Eastlake,Real Bed,Price,150.4
+Cascade,Eastlake,Real Bed,NumReviews,24.1
+Cascade,Eastlake,Real Bed,Rating,94.6
+Cascade,Eastlake,Real Bed,Beds,1.3
+Cascade,Eastlake,Real Bed,Bedrooms,1.2
+Cascade,South Lake Union,Real Bed,Price,183.8
+Cascade,South Lake Union,Real Bed,NumReviews,10.6
+Cascade,South Lake Union,Real Bed,Rating,94.4
+Cascade,South Lake Union,Real Bed,Beds,1.5
+Cascade,South Lake Union,Real Bed,Bedrooms,1.2
+Cascade,Westlake,Real Bed,Price,156.1
+Cascade,Westlake,Real Bed,NumReviews,16.4
+Cascade,Westlake,Real Bed,Rating,94.5
+Cascade,Westlake,Real Bed,Beds,1.3
+Cascade,Westlake,Real Bed,Bedrooms,1.2
+Central Area,Atlantic,Futon,Price,67.7
+Central Area,Atlantic,Futon,NumReviews,12.3
+Central Area,Atlantic,Futon,Rating,96
+Central Area,Atlantic,Futon,Beds,1
+Central Area,Atlantic,Futon,Bedrooms,1
+Central Area,Atlantic,Pull-out Sofa,Price,76
+Central Area,Atlantic,Pull-out Sofa,NumReviews,46
+Central Area,Atlantic,Pull-out Sofa,Rating,78
+Central Area,Atlantic,Pull-out Sofa,Beds,1
+Central Area,Atlantic,Pull-out Sofa,Bedrooms,0.5
+Central Area,Atlantic,Real Bed,Price,124.5
+Central Area,Atlantic,Real Bed,NumReviews,21
+Central Area,Atlantic,Real Bed,Rating,93.1
+Central Area,Atlantic,Real Bed,Beds,1.8
+Central Area,Atlantic,Real Bed,Bedrooms,1.2
+Central Area,Harrison/Denny-Blaine,Pull-out Sofa,Price,150
+Central Area,Harrison/Denny-Blaine,Pull-out Sofa,NumReviews,0
+Central Area,Harrison/Denny-Blaine,Pull-out Sofa,Rating,
+Central Area,Harrison/Denny-Blaine,Pull-out Sofa,Beds,1
+Central Area,Harrison/Denny-Blaine,Pull-out Sofa,Bedrooms,1
+Central Area,Harrison/Denny-Blaine,Real Bed,Price,125.9
+Central Area,Harrison/Denny-Blaine,Real Bed,NumReviews,65
+Central Area,Harrison/Denny-Blaine,Real Bed,Rating,95.9
+Central Area,Harrison/Denny-Blaine,Real Bed,Beds,1.4
+Central Area,Harrison/Denny-Blaine,Real Bed,Bedrooms,1.3
+Central Area,Leschi,Pull-out Sofa,Price,54.5
+Central Area,Leschi,Pull-out Sofa,NumReviews,14
+Central Area,Leschi,Pull-out Sofa,Rating,92.5
+Central Area,Leschi,Pull-out Sofa,Beds,1
+Central Area,Leschi,Pull-out Sofa,Bedrooms,1
+Central Area,Leschi,Real Bed,Price,159.8
+Central Area,Leschi,Real Bed,NumReviews,19.7
+Central Area,Leschi,Real Bed,Rating,96.3
+Central Area,Leschi,Real Bed,Beds,2.2
+Central Area,Leschi,Real Bed,Bedrooms,2
+Central Area,Madrona,Futon,Price,125
+Central Area,Madrona,Futon,NumReviews,16
+Central Area,Madrona,Futon,Rating,99
+Central Area,Madrona,Futon,Beds,1
+Central Area,Madrona,Futon,Bedrooms,1
+Central Area,Madrona,Real Bed,Price,172.6
+Central Area,Madrona,Real Bed,NumReviews,15.1
+Central Area,Madrona,Real Bed,Rating,96.6
+Central Area,Madrona,Real Bed,Beds,2.3
+Central Area,Madrona,Real Bed,Bedrooms,1.8
+Central Area,Mann,Futon,Price,88
+Central Area,Mann,Futon,NumReviews,0
+Central Area,Mann,Futon,Rating,
+Central Area,Mann,Futon,Beds,1
+Central Area,Mann,Futon,Bedrooms,1
+Central Area,Mann,Real Bed,Price,123.4
+Central Area,Mann,Real Bed,NumReviews,25.8
+Central Area,Mann,Real Bed,Rating,94.1
+Central Area,Mann,Real Bed,Beds,1.7
+Central Area,Mann,Real Bed,Bedrooms,1.3
+Central Area,Minor,Airbed,Price,50
+Central Area,Minor,Airbed,NumReviews,33
+Central Area,Minor,Airbed,Rating,97
+Central Area,Minor,Airbed,Beds,1
+Central Area,Minor,Airbed,Bedrooms,1
+Central Area,Minor,Futon,Price,65
+Central Area,Minor,Futon,NumReviews,21
+Central Area,Minor,Futon,Rating,96
+Central Area,Minor,Futon,Beds,1
+Central Area,Minor,Futon,Bedrooms,1
+Central Area,Minor,Pull-out Sofa,Price,87
+Central Area,Minor,Pull-out Sofa,NumReviews,66
+Central Area,Minor,Pull-out Sofa,Rating,99
+Central Area,Minor,Pull-out Sofa,Beds,1
+Central Area,Minor,Pull-out Sofa,Bedrooms,0.5
+Central Area,Minor,Real Bed,Price,145.1
+Central Area,Minor,Real Bed,NumReviews,19.2
+Central Area,Minor,Real Bed,Rating,94.7
+Central Area,Minor,Real Bed,Beds,1.7
+Central Area,Minor,Real Bed,Bedrooms,1.5
+Delridge,High Point,Airbed,Price,300
+Delridge,High Point,Airbed,NumReviews,0
+Delridge,High Point,Airbed,Rating,
+Delridge,High Point,Airbed,Beds,1
+Delridge,High Point,Airbed,Bedrooms,1
+Delridge,High Point,Futon,Price,49
+Delridge,High Point,Futon,NumReviews,1
+Delridge,High Point,Futon,Rating,100
+Delridge,High Point,Futon,Beds,1
+Delridge,High Point,Futon,Bedrooms,1
+Delridge,High Point,Real Bed,Price,117.7
+Delridge,High Point,Real Bed,NumReviews,13.8
+Delridge,High Point,Real Bed,Rating,93.7
+Delridge,High Point,Real Bed,Beds,2.3
+Delridge,High Point,Real Bed,Bedrooms,1.8
+Delridge,Highland Park,Real Bed,Price,86.6
+Delridge,Highland Park,Real Bed,NumReviews,27.9
+Delridge,Highland Park,Real Bed,Rating,95.9
+Delridge,Highland Park,Real Bed,Beds,1.4
+Delridge,Highland Park,Real Bed,Bedrooms,1.2
+Delridge,North Delridge,Real Bed,Price,90.5
+Delridge,North Delridge,Real Bed,NumReviews,20.7
+Delridge,North Delridge,Real Bed,Rating,96.2
+Delridge,North Delridge,Real Bed,Beds,1.5
+Delridge,North Delridge,Real Bed,Bedrooms,1.1
+Delridge,Riverview,Futon,Price,85
+Delridge,Riverview,Futon,NumReviews,35
+Delridge,Riverview,Futon,Rating,95
+Delridge,Riverview,Futon,Beds,1
+Delridge,Riverview,Futon,Bedrooms,1
+Delridge,Riverview,Pull-out Sofa,Price,60
+Delridge,Riverview,Pull-out Sofa,NumReviews,4
+Delridge,Riverview,Pull-out Sofa,Rating,100
+Delridge,Riverview,Pull-out Sofa,Beds,1
+Delridge,Riverview,Pull-out Sofa,Bedrooms,1
+Delridge,Riverview,Real Bed,Price,81
+Delridge,Riverview,Real Bed,NumReviews,58.6
+Delridge,Riverview,Real Bed,Rating,93.2
+Delridge,Riverview,Real Bed,Beds,1.6
+Delridge,Riverview,Real Bed,Bedrooms,1.2
+Delridge,South Delridge,Real Bed,Price,89.4
+Delridge,South Delridge,Real Bed,NumReviews,59.9
+Delridge,South Delridge,Real Bed,Rating,94.6
+Delridge,South Delridge,Real Bed,Beds,1.7
+Delridge,South Delridge,Real Bed,Bedrooms,1.6
+Downtown,Belltown,Couch,Price,49
+Downtown,Belltown,Couch,NumReviews,37
+Downtown,Belltown,Couch,Rating,90
+Downtown,Belltown,Couch,Beds,2
+Downtown,Belltown,Couch,Bedrooms,1
+Downtown,Belltown,Futon,Price,95
+Downtown,Belltown,Futon,NumReviews,3.7
+Downtown,Belltown,Futon,Rating,95
+Downtown,Belltown,Futon,Beds,1
+Downtown,Belltown,Futon,Bedrooms,1
+Downtown,Belltown,Pull-out Sofa,Price,100
+Downtown,Belltown,Pull-out Sofa,NumReviews,25
+Downtown,Belltown,Pull-out Sofa,Rating,98
+Downtown,Belltown,Pull-out Sofa,Beds,1
+Downtown,Belltown,Pull-out Sofa,Bedrooms,0
+Downtown,Belltown,Real Bed,Price,198.7
+Downtown,Belltown,Real Bed,NumReviews,16.9
+Downtown,Belltown,Real Bed,Rating,94.5
+Downtown,Belltown,Real Bed,Beds,1.8
+Downtown,Belltown,Real Bed,Bedrooms,1.1
+Downtown,Central Business District,Pull-out Sofa,Price,213
+Downtown,Central Business District,Pull-out Sofa,NumReviews,26.7
+Downtown,Central Business District,Pull-out Sofa,Rating,93.3
+Downtown,Central Business District,Pull-out Sofa,Beds,2
+Downtown,Central Business District,Pull-out Sofa,Bedrooms,1.3
+Downtown,Central Business District,Real Bed,Price,190.3
+Downtown,Central Business District,Real Bed,NumReviews,19.8
+Downtown,Central Business District,Real Bed,Rating,92.9
+Downtown,Central Business District,Real Bed,Beds,2.1
+Downtown,Central Business District,Real Bed,Bedrooms,1.1
+Downtown,First Hill,Airbed,Price,36
+Downtown,First Hill,Airbed,NumReviews,25
+Downtown,First Hill,Airbed,Rating,87
+Downtown,First Hill,Airbed,Beds,1
+Downtown,First Hill,Airbed,Bedrooms,1
+Downtown,First Hill,Couch,Price,74
+Downtown,First Hill,Couch,NumReviews,0
+Downtown,First Hill,Couch,Rating,
+Downtown,First Hill,Couch,Beds,1
+Downtown,First Hill,Couch,Bedrooms,1
+Downtown,First Hill,Futon,Price,89
+Downtown,First Hill,Futon,NumReviews,18
+Downtown,First Hill,Futon,Rating,96
+Downtown,First Hill,Futon,Beds,1
+Downtown,First Hill,Futon,Bedrooms,1
+Downtown,First Hill,Pull-out Sofa,Price,89
+Downtown,First Hill,Pull-out Sofa,NumReviews,102
+Downtown,First Hill,Pull-out Sofa,Rating,92
+Downtown,First Hill,Pull-out Sofa,Beds,1
+Downtown,First Hill,Pull-out Sofa,Bedrooms,1
+Downtown,First Hill,Real Bed,Price,156.8
+Downtown,First Hill,Real Bed,NumReviews,21.3
+Downtown,First Hill,Real Bed,Rating,95
+Downtown,First Hill,Real Bed,Beds,1.6
+Downtown,First Hill,Real Bed,Bedrooms,1
+Downtown,International District,Real Bed,Price,100.9
+Downtown,International District,Real Bed,NumReviews,100
+Downtown,International District,Real Bed,Rating,92.9
+Downtown,International District,Real Bed,Beds,1.3
+Downtown,International District,Real Bed,Bedrooms,1
+Downtown,Pike-Market,Pull-out Sofa,Price,269
+Downtown,Pike-Market,Pull-out Sofa,NumReviews,14
+Downtown,Pike-Market,Pull-out Sofa,Rating,89
+Downtown,Pike-Market,Pull-out Sofa,Beds,3
+Downtown,Pike-Market,Pull-out Sofa,Bedrooms,2
+Downtown,Pike-Market,Real Bed,Price,192.1
+Downtown,Pike-Market,Real Bed,NumReviews,11.4
+Downtown,Pike-Market,Real Bed,Rating,93.8
+Downtown,Pike-Market,Real Bed,Beds,1.8
+Downtown,Pike-Market,Real Bed,Bedrooms,1.1
+Downtown,Pioneer Square,Pull-out Sofa,Price,159
+Downtown,Pioneer Square,Pull-out Sofa,NumReviews,76
+Downtown,Pioneer Square,Pull-out Sofa,Rating,92
+Downtown,Pioneer Square,Pull-out Sofa,Beds,3
+Downtown,Pioneer Square,Pull-out Sofa,Bedrooms,1
+Downtown,Pioneer Square,Real Bed,Price,190.6
+Downtown,Pioneer Square,Real Bed,NumReviews,23.9
+Downtown,Pioneer Square,Real Bed,Rating,91.9
+Downtown,Pioneer Square,Real Bed,Beds,1.6
+Downtown,Pioneer Square,Real Bed,Bedrooms,0.9
+Downtown,Yesler Terrace,Real Bed,Price,150.4
+Downtown,Yesler Terrace,Real Bed,NumReviews,14.3
+Downtown,Yesler Terrace,Real Bed,Rating,95.2
+Downtown,Yesler Terrace,Real Bed,Beds,1.7
+Downtown,Yesler Terrace,Real Bed,Bedrooms,1
+Interbay,Interbay,Real Bed,Price,129.2
+Interbay,Interbay,Real Bed,NumReviews,9.7
+Interbay,Interbay,Real Bed,Rating,94.6
+Interbay,Interbay,Real Bed,Beds,1.5
+Interbay,Interbay,Real Bed,Bedrooms,1.3
+Lake City,Cedar Park,Real Bed,Price,154.3
+Lake City,Cedar Park,Real Bed,NumReviews,12.8
+Lake City,Cedar Park,Real Bed,Rating,97.3
+Lake City,Cedar Park,Real Bed,Beds,2.5
+Lake City,Cedar Park,Real Bed,Bedrooms,2.3
+Lake City,Matthews Beach,Real Bed,Price,139.3
+Lake City,Matthews Beach,Real Bed,NumReviews,13.1
+Lake City,Matthews Beach,Real Bed,Rating,94.5
+Lake City,Matthews Beach,Real Bed,Beds,1.9
+Lake City,Matthews Beach,Real Bed,Bedrooms,1.7
+Lake City,Meadowbrook,Real Bed,Price,98
+Lake City,Meadowbrook,Real Bed,NumReviews,15.2
+Lake City,Meadowbrook,Real Bed,Rating,95
+Lake City,Meadowbrook,Real Bed,Beds,1.6
+Lake City,Meadowbrook,Real Bed,Bedrooms,1.6
+Lake City,Olympic Hills,Futon,Price,85
+Lake City,Olympic Hills,Futon,NumReviews,0
+Lake City,Olympic Hills,Futon,Rating,
+Lake City,Olympic Hills,Futon,Beds,1
+Lake City,Olympic Hills,Futon,Bedrooms,1
+Lake City,Olympic Hills,Real Bed,Price,88.6
+Lake City,Olympic Hills,Real Bed,NumReviews,12.9
+Lake City,Olympic Hills,Real Bed,Rating,90.2
+Lake City,Olympic Hills,Real Bed,Beds,1.6
+Lake City,Olympic Hills,Real Bed,Bedrooms,1.2
+Lake City,Victory Heights,Airbed,Price,65
+Lake City,Victory Heights,Airbed,NumReviews,2
+Lake City,Victory Heights,Airbed,Rating,100
+Lake City,Victory Heights,Airbed,Beds,1
+Lake City,Victory Heights,Airbed,Bedrooms,1
+Lake City,Victory Heights,Real Bed,Price,83.9
+Lake City,Victory Heights,Real Bed,NumReviews,12.1
+Lake City,Victory Heights,Real Bed,Rating,94.3
+Lake City,Victory Heights,Real Bed,Beds,1.1
+Lake City,Victory Heights,Real Bed,Bedrooms,0.9
+Magnolia,Briarcliff,Futon,Price,94
+Magnolia,Briarcliff,Futon,NumReviews,8
+Magnolia,Briarcliff,Futon,Rating,80.5
+Magnolia,Briarcliff,Futon,Beds,1
+Magnolia,Briarcliff,Futon,Bedrooms,1
+Magnolia,Briarcliff,Real Bed,Price,295.7
+Magnolia,Briarcliff,Real Bed,NumReviews,15
+Magnolia,Briarcliff,Real Bed,Rating,92.2
+Magnolia,Briarcliff,Real Bed,Beds,3.6
+Magnolia,Briarcliff,Real Bed,Bedrooms,2.1
+Magnolia,Lawton Park,Airbed,Price,40
+Magnolia,Lawton Park,Airbed,NumReviews,3
+Magnolia,Lawton Park,Airbed,Rating,87
+Magnolia,Lawton Park,Airbed,Beds,1
+Magnolia,Lawton Park,Airbed,Bedrooms,1
+Magnolia,Lawton Park,Couch,Price,40
+Magnolia,Lawton Park,Couch,NumReviews,8
+Magnolia,Lawton Park,Couch,Rating,100
+Magnolia,Lawton Park,Couch,Beds,1
+Magnolia,Lawton Park,Couch,Bedrooms,1
+Magnolia,Lawton Park,Real Bed,Price,135
+Magnolia,Lawton Park,Real Bed,NumReviews,18.4
+Magnolia,Lawton Park,Real Bed,Rating,94.8
+Magnolia,Lawton Park,Real Bed,Beds,1.7
+Magnolia,Lawton Park,Real Bed,Bedrooms,1.6
+Magnolia,Southeast Magnolia,Pull-out Sofa,Price,130
+Magnolia,Southeast Magnolia,Pull-out Sofa,NumReviews,0
+Magnolia,Southeast Magnolia,Pull-out Sofa,Rating,
+Magnolia,Southeast Magnolia,Pull-out Sofa,Beds,1
+Magnolia,Southeast Magnolia,Pull-out Sofa,Bedrooms,0
+Magnolia,Southeast Magnolia,Real Bed,Price,282.2
+Magnolia,Southeast Magnolia,Real Bed,NumReviews,14.4
+Magnolia,Southeast Magnolia,Real Bed,Rating,95.8
+Magnolia,Southeast Magnolia,Real Bed,Beds,2.1
+Magnolia,Southeast Magnolia,Real Bed,Bedrooms,1.8
+Northgate,Haller Lake,Real Bed,Price,98.4
+Northgate,Haller Lake,Real Bed,NumReviews,32.7
+Northgate,Haller Lake,Real Bed,Rating,95.2
+Northgate,Haller Lake,Real Bed,Beds,1.4
+Northgate,Haller Lake,Real Bed,Bedrooms,1.3
+Northgate,Maple Leaf,Couch,Price,30
+Northgate,Maple Leaf,Couch,NumReviews,6
+Northgate,Maple Leaf,Couch,Rating,100
+Northgate,Maple Leaf,Couch,Beds,1
+Northgate,Maple Leaf,Couch,Bedrooms,1
+Northgate,Maple Leaf,Futon,Price,36
+Northgate,Maple Leaf,Futon,NumReviews,6
+Northgate,Maple Leaf,Futon,Rating,97
+Northgate,Maple Leaf,Futon,Beds,1
+Northgate,Maple Leaf,Futon,Bedrooms,1
+Northgate,Maple Leaf,Real Bed,Price,94.8
+Northgate,Maple Leaf,Real Bed,NumReviews,22.9
+Northgate,Maple Leaf,Real Bed,Rating,95.2
+Northgate,Maple Leaf,Real Bed,Beds,1.4
+Northgate,Maple Leaf,Real Bed,Bedrooms,1.2
+Northgate,North College Park,Futon,Price,74.7
+Northgate,North College Park,Futon,NumReviews,18.3
+Northgate,North College Park,Futon,Rating,68.5
+Northgate,North College Park,Futon,Beds,1
+Northgate,North College Park,Futon,Bedrooms,1
+Northgate,North College Park,Real Bed,Price,157.5
+Northgate,North College Park,Real Bed,NumReviews,13.5
+Northgate,North College Park,Real Bed,Rating,93
+Northgate,North College Park,Real Bed,Beds,2
+Northgate,North College Park,Real Bed,Bedrooms,2
+Northgate,Pinehurst,Real Bed,Price,125
+Northgate,Pinehurst,Real Bed,NumReviews,0
+Northgate,Pinehurst,Real Bed,Rating,
+Northgate,Pinehurst,Real Bed,Beds,2
+Northgate,Pinehurst,Real Bed,Bedrooms,2
+Other neighborhoods,Bitter Lake,Airbed,Price,55
+Other neighborhoods,Bitter Lake,Airbed,NumReviews,13
+Other neighborhoods,Bitter Lake,Airbed,Rating,98
+Other neighborhoods,Bitter Lake,Airbed,Beds,1
+Other neighborhoods,Bitter Lake,Airbed,Bedrooms,1
+Other neighborhoods,Bitter Lake,Real Bed,Price,101.1
+Other neighborhoods,Bitter Lake,Real Bed,NumReviews,8.9
+Other neighborhoods,Bitter Lake,Real Bed,Rating,90
+Other neighborhoods,Bitter Lake,Real Bed,Beds,1.4
+Other neighborhoods,Bitter Lake,Real Bed,Bedrooms,1.2
+Other neighborhoods,Broadview,Real Bed,Price,111.6
+Other neighborhoods,Broadview,Real Bed,NumReviews,11.8
+Other neighborhoods,Broadview,Real Bed,Rating,95.3
+Other neighborhoods,Broadview,Real Bed,Beds,2.1
+Other neighborhoods,Broadview,Real Bed,Bedrooms,1.4
+Other neighborhoods,Bryant,Airbed,Price,200
+Other neighborhoods,Bryant,Airbed,NumReviews,0
+Other neighborhoods,Bryant,Airbed,Rating,
+Other neighborhoods,Bryant,Airbed,Beds,1
+Other neighborhoods,Bryant,Airbed,Bedrooms,1
+Other neighborhoods,Bryant,Pull-out Sofa,Price,60
+Other neighborhoods,Bryant,Pull-out Sofa,NumReviews,40
+Other neighborhoods,Bryant,Pull-out Sofa,Rating,88
+Other neighborhoods,Bryant,Pull-out Sofa,Beds,1
+Other neighborhoods,Bryant,Pull-out Sofa,Bedrooms,1
+Other neighborhoods,Bryant,Real Bed,Price,113.1
+Other neighborhoods,Bryant,Real Bed,NumReviews,18.6
+Other neighborhoods,Bryant,Real Bed,Rating,93.2
+Other neighborhoods,Bryant,Real Bed,Beds,1.6
+Other neighborhoods,Bryant,Real Bed,Bedrooms,1.5
+Other neighborhoods,Crown Hill,Real Bed,Price,110.8
+Other neighborhoods,Crown Hill,Real Bed,NumReviews,32.8
+Other neighborhoods,Crown Hill,Real Bed,Rating,92.7
+Other neighborhoods,Crown Hill,Real Bed,Beds,2.3
+Other neighborhoods,Crown Hill,Real Bed,Bedrooms,1.5
+Other neighborhoods,Fremont,Futon,Price,69.5
+Other neighborhoods,Fremont,Futon,NumReviews,15
+Other neighborhoods,Fremont,Futon,Rating,95
+Other neighborhoods,Fremont,Futon,Beds,1
+Other neighborhoods,Fremont,Futon,Bedrooms,1
+Other neighborhoods,Fremont,Real Bed,Price,144
+Other neighborhoods,Fremont,Real Bed,NumReviews,25.6
+Other neighborhoods,Fremont,Real Bed,Rating,95.6
+Other neighborhoods,Fremont,Real Bed,Beds,1.8
+Other neighborhoods,Fremont,Real Bed,Bedrooms,1.4
+Other neighborhoods,Georgetown,Real Bed,Price,77.1
+Other neighborhoods,Georgetown,Real Bed,NumReviews,26.7
+Other neighborhoods,Georgetown,Real Bed,Rating,91.7
+Other neighborhoods,Georgetown,Real Bed,Beds,1
+Other neighborhoods,Georgetown,Real Bed,Bedrooms,0.9
+Other neighborhoods,Green Lake,Futon,Price,40
+Other neighborhoods,Green Lake,Futon,NumReviews,19
+Other neighborhoods,Green Lake,Futon,Rating,96
+Other neighborhoods,Green Lake,Futon,Beds,1
+Other neighborhoods,Green Lake,Futon,Bedrooms,1
+Other neighborhoods,Green Lake,Real Bed,Price,167
+Other neighborhoods,Green Lake,Real Bed,NumReviews,18.6
+Other neighborhoods,Green Lake,Real Bed,Rating,95.7
+Other neighborhoods,Green Lake,Real Bed,Beds,1.9
+Other neighborhoods,Green Lake,Real Bed,Bedrooms,1.8
+Other neighborhoods,Greenwood,Real Bed,Price,108.7
+Other neighborhoods,Greenwood,Real Bed,NumReviews,21.7
+Other neighborhoods,Greenwood,Real Bed,Rating,94.4
+Other neighborhoods,Greenwood,Real Bed,Beds,1.8
+Other neighborhoods,Greenwood,Real Bed,Bedrooms,1.3
+Other neighborhoods,Industrial District,Real Bed,Price,180.5
+Other neighborhoods,Industrial District,Real Bed,NumReviews,14.3
+Other neighborhoods,Industrial District,Real Bed,Rating,94.6
+Other neighborhoods,Industrial District,Real Bed,Beds,1.8
+Other neighborhoods,Industrial District,Real Bed,Bedrooms,1.3
+Other neighborhoods,Laurelhurst,Real Bed,Price,155.8
+Other neighborhoods,Laurelhurst,Real Bed,NumReviews,18.2
+Other neighborhoods,Laurelhurst,Real Bed,Rating,94.3
+Other neighborhoods,Laurelhurst,Real Bed,Beds,2.2
+Other neighborhoods,Laurelhurst,Real Bed,Bedrooms,1.5
+Other neighborhoods,North Beach/Blue Ridge,Real Bed,Price,165.8
+Other neighborhoods,North Beach/Blue Ridge,Real Bed,NumReviews,2
+Other neighborhoods,North Beach/Blue Ridge,Real Bed,Rating,96.5
+Other neighborhoods,North Beach/Blue Ridge,Real Bed,Beds,2.2
+Other neighborhoods,North Beach/Blue Ridge,Real Bed,Bedrooms,1.8
+Other neighborhoods,Phinney Ridge,Futon,Price,100
+Other neighborhoods,Phinney Ridge,Futon,NumReviews,77
+Other neighborhoods,Phinney Ridge,Futon,Rating,97
+Other neighborhoods,Phinney Ridge,Futon,Beds,1
+Other neighborhoods,Phinney Ridge,Futon,Bedrooms,1
+Other neighborhoods,Phinney Ridge,Real Bed,Price,128.5
+Other neighborhoods,Phinney Ridge,Real Bed,NumReviews,18.4
+Other neighborhoods,Phinney Ridge,Real Bed,Rating,94.7
+Other neighborhoods,Phinney Ridge,Real Bed,Beds,1.9
+Other neighborhoods,Phinney Ridge,Real Bed,Bedrooms,1.5
+Other neighborhoods,Ravenna,Real Bed,Price,100.6
+Other neighborhoods,Ravenna,Real Bed,NumReviews,21.5
+Other neighborhoods,Ravenna,Real Bed,Rating,91.8
+Other neighborhoods,Ravenna,Real Bed,Beds,1.7
+Other neighborhoods,Ravenna,Real Bed,Bedrooms,1.3
+Other neighborhoods,Roosevelt,Airbed,Price,42.5
+Other neighborhoods,Roosevelt,Airbed,NumReviews,7.5
+Other neighborhoods,Roosevelt,Airbed,Rating,98.5
+Other neighborhoods,Roosevelt,Airbed,Beds,1
+Other neighborhoods,Roosevelt,Airbed,Bedrooms,1
+Other neighborhoods,Roosevelt,Real Bed,Price,211.3
+Other neighborhoods,Roosevelt,Real Bed,NumReviews,12.5
+Other neighborhoods,Roosevelt,Real Bed,Rating,96.1
+Other neighborhoods,Roosevelt,Real Bed,Beds,2.1
+Other neighborhoods,Roosevelt,Real Bed,Bedrooms,1.8
+Other neighborhoods,South Park,Real Bed,Price,89
+Other neighborhoods,South Park,Real Bed,NumReviews,25.5
+Other neighborhoods,South Park,Real Bed,Rating,83.5
+Other neighborhoods,South Park,Real Bed,Beds,2
+Other neighborhoods,South Park,Real Bed,Bedrooms,1.5
+Other neighborhoods,View Ridge,Futon,Price,54
+Other neighborhoods,View Ridge,Futon,NumReviews,1
+Other neighborhoods,View Ridge,Futon,Rating,100
+Other neighborhoods,View Ridge,Futon,Beds,1
+Other neighborhoods,View Ridge,Futon,Bedrooms,1
+Other neighborhoods,View Ridge,Real Bed,Price,84.5
+Other neighborhoods,View Ridge,Real Bed,NumReviews,15
+Other neighborhoods,View Ridge,Real Bed,Rating,89.5
+Other neighborhoods,View Ridge,Real Bed,Beds,1.5
+Other neighborhoods,View Ridge,Real Bed,Bedrooms,1
+Other neighborhoods,Wallingford,Airbed,Price,245
+Other neighborhoods,Wallingford,Airbed,NumReviews,26
+Other neighborhoods,Wallingford,Airbed,Rating,94
+Other neighborhoods,Wallingford,Airbed,Beds,3
+Other neighborhoods,Wallingford,Airbed,Bedrooms,3
+Other neighborhoods,Wallingford,Futon,Price,70
+Other neighborhoods,Wallingford,Futon,NumReviews,6
+Other neighborhoods,Wallingford,Futon,Rating,97
+Other neighborhoods,Wallingford,Futon,Beds,1
+Other neighborhoods,Wallingford,Futon,Bedrooms,0
+Other neighborhoods,Wallingford,Pull-out Sofa,Price,40
+Other neighborhoods,Wallingford,Pull-out Sofa,NumReviews,28
+Other neighborhoods,Wallingford,Pull-out Sofa,Rating,96
+Other neighborhoods,Wallingford,Pull-out Sofa,Beds,1
+Other neighborhoods,Wallingford,Pull-out Sofa,Bedrooms,1
+Other neighborhoods,Wallingford,Real Bed,Price,139.5
+Other neighborhoods,Wallingford,Real Bed,NumReviews,21
+Other neighborhoods,Wallingford,Real Bed,Rating,94.5
+Other neighborhoods,Wallingford,Real Bed,Beds,1.8
+Other neighborhoods,Wallingford,Real Bed,Bedrooms,1.4
+Other neighborhoods,Wedgwood,Real Bed,Price,127.2
+Other neighborhoods,Wedgwood,Real Bed,NumReviews,14.1
+Other neighborhoods,Wedgwood,Real Bed,Rating,93.2
+Other neighborhoods,Wedgwood,Real Bed,Beds,1.9
+Other neighborhoods,Wedgwood,Real Bed,Bedrooms,1.6
+Other neighborhoods,Windermere,Real Bed,Price,120.8
+Other neighborhoods,Windermere,Real Bed,NumReviews,12.5
+Other neighborhoods,Windermere,Real Bed,Rating,95
+Other neighborhoods,Windermere,Real Bed,Beds,1.3
+Other neighborhoods,Windermere,Real Bed,Bedrooms,1.3
+Queen Anne,East Queen Anne,Airbed,Price,145
+Queen Anne,East Queen Anne,Airbed,NumReviews,7
+Queen Anne,East Queen Anne,Airbed,Rating,94.5
+Queen Anne,East Queen Anne,Airbed,Beds,1
+Queen Anne,East Queen Anne,Airbed,Bedrooms,1
+Queen Anne,East Queen Anne,Real Bed,Price,164.7
+Queen Anne,East Queen Anne,Real Bed,NumReviews,14.7
+Queen Anne,East Queen Anne,Real Bed,Rating,95.3
+Queen Anne,East Queen Anne,Real Bed,Beds,1.8
+Queen Anne,East Queen Anne,Real Bed,Bedrooms,1.4
+Queen Anne,Lower Queen Anne,Futon,Price,100
+Queen Anne,Lower Queen Anne,Futon,NumReviews,28
+Queen Anne,Lower Queen Anne,Futon,Rating,97
+Queen Anne,Lower Queen Anne,Futon,Beds,1
+Queen Anne,Lower Queen Anne,Futon,Bedrooms,0
+Queen Anne,Lower Queen Anne,Pull-out Sofa,Price,40
+Queen Anne,Lower Queen Anne,Pull-out Sofa,NumReviews,29
+Queen Anne,Lower Queen Anne,Pull-out Sofa,Rating,84
+Queen Anne,Lower Queen Anne,Pull-out Sofa,Beds,1
+Queen Anne,Lower Queen Anne,Pull-out Sofa,Bedrooms,1
+Queen Anne,Lower Queen Anne,Real Bed,Price,156.5
+Queen Anne,Lower Queen Anne,Real Bed,NumReviews,24.5
+Queen Anne,Lower Queen Anne,Real Bed,Rating,93
+Queen Anne,Lower Queen Anne,Real Bed,Beds,1.3
+Queen Anne,Lower Queen Anne,Real Bed,Bedrooms,1
+Queen Anne,North Queen Anne,Futon,Price,130
+Queen Anne,North Queen Anne,Futon,NumReviews,12
+Queen Anne,North Queen Anne,Futon,Rating,91
+Queen Anne,North Queen Anne,Futon,Beds,2
+Queen Anne,North Queen Anne,Futon,Bedrooms,1
+Queen Anne,North Queen Anne,Pull-out Sofa,Price,75
+Queen Anne,North Queen Anne,Pull-out Sofa,NumReviews,16
+Queen Anne,North Queen Anne,Pull-out Sofa,Rating,96
+Queen Anne,North Queen Anne,Pull-out Sofa,Beds,1
+Queen Anne,North Queen Anne,Pull-out Sofa,Bedrooms,1
+Queen Anne,North Queen Anne,Real Bed,Price,172.7
+Queen Anne,North Queen Anne,Real Bed,NumReviews,17.4
+Queen Anne,North Queen Anne,Real Bed,Rating,95.5
+Queen Anne,North Queen Anne,Real Bed,Beds,2
+Queen Anne,North Queen Anne,Real Bed,Bedrooms,1.7
+Queen Anne,West Queen Anne,Futon,Price,102.5
+Queen Anne,West Queen Anne,Futon,NumReviews,4.5
+Queen Anne,West Queen Anne,Futon,Rating,93
+Queen Anne,West Queen Anne,Futon,Beds,1
+Queen Anne,West Queen Anne,Futon,Bedrooms,0.5
+Queen Anne,West Queen Anne,Real Bed,Price,207.3
+Queen Anne,West Queen Anne,Real Bed,NumReviews,32.9
+Queen Anne,West Queen Anne,Real Bed,Rating,95.1
+Queen Anne,West Queen Anne,Real Bed,Beds,2.1
+Queen Anne,West Queen Anne,Real Bed,Bedrooms,1.7
+Rainier Valley,Brighton,Real Bed,Price,128.5
+Rainier Valley,Brighton,Real Bed,NumReviews,11.3
+Rainier Valley,Brighton,Real Bed,Rating,96.8
+Rainier Valley,Brighton,Real Bed,Beds,1.5
+Rainier Valley,Brighton,Real Bed,Bedrooms,1.2
+Rainier Valley,Columbia City,Futon,Price,55
+Rainier Valley,Columbia City,Futon,NumReviews,4
+Rainier Valley,Columbia City,Futon,Rating,100
+Rainier Valley,Columbia City,Futon,Beds,1
+Rainier Valley,Columbia City,Futon,Bedrooms,1
+Rainier Valley,Columbia City,Real Bed,Price,101.2
+Rainier Valley,Columbia City,Real Bed,NumReviews,29.4
+Rainier Valley,Columbia City,Real Bed,Rating,94.6
+Rainier Valley,Columbia City,Real Bed,Beds,1.5
+Rainier Valley,Columbia City,Real Bed,Bedrooms,1.3
+Rainier Valley,Dunlap,Couch,Price,150
+Rainier Valley,Dunlap,Couch,NumReviews,2
+Rainier Valley,Dunlap,Couch,Rating,80
+Rainier Valley,Dunlap,Couch,Beds,1
+Rainier Valley,Dunlap,Couch,Bedrooms,1
+Rainier Valley,Dunlap,Real Bed,Price,126.1
+Rainier Valley,Dunlap,Real Bed,NumReviews,4.6
+Rainier Valley,Dunlap,Real Bed,Rating,98.3
+Rainier Valley,Dunlap,Real Bed,Beds,1.4
+Rainier Valley,Dunlap,Real Bed,Bedrooms,1.4
+Rainier Valley,Mount Baker,Real Bed,Price,110.7
+Rainier Valley,Mount Baker,Real Bed,NumReviews,33.3
+Rainier Valley,Mount Baker,Real Bed,Rating,94.9
+Rainier Valley,Mount Baker,Real Bed,Beds,1.7
+Rainier Valley,Mount Baker,Real Bed,Bedrooms,1.4
+Rainier Valley,Rainier Beach,Real Bed,Price,111.8
+Rainier Valley,Rainier Beach,Real Bed,NumReviews,15
+Rainier Valley,Rainier Beach,Real Bed,Rating,96.8
+Rainier Valley,Rainier Beach,Real Bed,Beds,1.3
+Rainier Valley,Rainier Beach,Real Bed,Bedrooms,1.3
+Seward Park,Seward Park,Futon,Price,60
+Seward Park,Seward Park,Futon,NumReviews,14
+Seward Park,Seward Park,Futon,Rating,89
+Seward Park,Seward Park,Futon,Beds,1
+Seward Park,Seward Park,Futon,Bedrooms,1
+Seward Park,Seward Park,Real Bed,Price,134.7
+Seward Park,Seward Park,Real Bed,NumReviews,28.9
+Seward Park,Seward Park,Real Bed,Rating,95.4
+Seward Park,Seward Park,Real Bed,Beds,2.1
+Seward Park,Seward Park,Real Bed,Bedrooms,1.5
+University District,University District,Airbed,Price,55
+University District,University District,Airbed,NumReviews,0
+University District,University District,Airbed,Rating,
+University District,University District,Airbed,Beds,1
+University District,University District,Airbed,Bedrooms,1
+University District,University District,Futon,Price,66.8
+University District,University District,Futon,NumReviews,32.2
+University District,University District,Futon,Rating,94.3
+University District,University District,Futon,Beds,1
+University District,University District,Futon,Bedrooms,1
+University District,University District,Real Bed,Price,112.8
+University District,University District,Real Bed,NumReviews,8.4
+University District,University District,Real Bed,Rating,86.1
+University District,University District,Real Bed,Beds,1.8
+University District,University District,Real Bed,Bedrooms,1.2
+West Seattle,Alki,Pull-out Sofa,Price,145
+West Seattle,Alki,Pull-out Sofa,NumReviews,0
+West Seattle,Alki,Pull-out Sofa,Rating,
+West Seattle,Alki,Pull-out Sofa,Beds,1
+West Seattle,Alki,Pull-out Sofa,Bedrooms,1
+West Seattle,Alki,Real Bed,Price,191.6
+West Seattle,Alki,Real Bed,NumReviews,12.8
+West Seattle,Alki,Real Bed,Rating,93.6
+West Seattle,Alki,Real Bed,Beds,2.5
+West Seattle,Alki,Real Bed,Bedrooms,1.8
+West Seattle,Arbor Heights,Real Bed,Price,148.8
+West Seattle,Arbor Heights,Real Bed,NumReviews,8.3
+West Seattle,Arbor Heights,Real Bed,Rating,97.5
+West Seattle,Arbor Heights,Real Bed,Beds,1.8
+West Seattle,Arbor Heights,Real Bed,Bedrooms,1.3
+West Seattle,Fairmount Park,Futon,Price,85
+West Seattle,Fairmount Park,Futon,NumReviews,5.5
+West Seattle,Fairmount Park,Futon,Rating,96.5
+West Seattle,Fairmount Park,Futon,Beds,1
+West Seattle,Fairmount Park,Futon,Bedrooms,0.5
+West Seattle,Fairmount Park,Real Bed,Price,216.6
+West Seattle,Fairmount Park,Real Bed,NumReviews,8.5
+West Seattle,Fairmount Park,Real Bed,Rating,96.7
+West Seattle,Fairmount Park,Real Bed,Beds,2
+West Seattle,Fairmount Park,Real Bed,Bedrooms,1.7
+West Seattle,Fauntleroy,Real Bed,Price,158.6
+West Seattle,Fauntleroy,Real Bed,NumReviews,35.6
+West Seattle,Fauntleroy,Real Bed,Rating,96.1
+West Seattle,Fauntleroy,Real Bed,Beds,2.4
+West Seattle,Fauntleroy,Real Bed,Bedrooms,1.8
+West Seattle,Gatewood,Real Bed,Price,123.4
+West Seattle,Gatewood,Real Bed,NumReviews,19
+West Seattle,Gatewood,Real Bed,Rating,94.7
+West Seattle,Gatewood,Real Bed,Beds,1.5
+West Seattle,Gatewood,Real Bed,Bedrooms,1.3
+West Seattle,Genesee,Real Bed,Price,127
+West Seattle,Genesee,Real Bed,NumReviews,9.1
+West Seattle,Genesee,Real Bed,Rating,97.8
+West Seattle,Genesee,Real Bed,Beds,1.8
+West Seattle,Genesee,Real Bed,Bedrooms,1.5
+West Seattle,North Admiral,Real Bed,Price,147.3
+West Seattle,North Admiral,Real Bed,NumReviews,15.8
+West Seattle,North Admiral,Real Bed,Rating,95.8
+West Seattle,North Admiral,Real Bed,Beds,2.2
+West Seattle,North Admiral,Real Bed,Bedrooms,1.5
+West Seattle,Seaview,Real Bed,Price,147.9
+West Seattle,Seaview,Real Bed,NumReviews,32.7
+West Seattle,Seaview,Real Bed,Rating,95
+West Seattle,Seaview,Real Bed,Beds,2.4
+West Seattle,Seaview,Real Bed,Bedrooms,1.7
