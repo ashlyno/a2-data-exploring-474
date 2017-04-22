@@ -1,7 +1,9 @@
 $(function(){
 
-        var type = 'Price';
-        var places = [];
+        var color = 'SPECIES';
+        var dateMin = 1990;
+        var dateMax = 2017;
+        var time;
 
         var margin = {
             left: 70,
@@ -26,7 +28,13 @@ $(function(){
             .attr('height', drawHeight)
             .attr('width', drawWidth);
 
-    d3.csv('data/newprep.csv', function(error, allData){
+    d3.csv('data/birdFlightDataPrepped.csv', function(error, allData){
+
+        var nestedData = d3.nest()
+            .key(function(d) {
+                return d.ID;
+            })
+            .entries(allData);
 
         var xAxisLabel = svg.append('g')
             .attr('transform', 'translate(' + margin.left + ',' + (drawHeight + margin.top) + ')')
@@ -49,28 +57,31 @@ $(function(){
         var yAxis = d3.axisLeft()
             .tickFormat(d3.format('.2s'));
 
-        var xScale = d3.scaleBand();
+        var xScale = d3.scaleLinear();
 
         var yScale = d3.scaleLinear();
 
         var myScale = function(data) {
-            var neighborhoods = data.map(function(d){
-                return d.Neighbourhood_Group;
+
+            var xMin = d3.min(data, function(d) {
+                return +d.SPEED;
+            });
+
+            var xMax = d3.max(data, function(d) {
+                return +d.SPEED;
             });
 
             xScale.range([0, drawWidth])
-                  .padding(0.1)
-                  .domain(neighborhoods);
+                .domain([xMin, xMax]);
             
             var yMin = d3.min(data, function(d) {
-                return +d.Value;
+                return +d.HEIGHT;
             });
 
             var yMax = d3.max(data, function(d) {
-                return +d.Value;
+                return +d.HEIGHT;
             });
 
-            // Set the domain/range of your yScale
             yScale.range([drawHeight, 0])
                 .domain([0, yMax]);
         };
@@ -90,75 +101,96 @@ $(function(){
 
             yAxisLabel.call(yAxis);
 
-            xAxisText.text('Neighbourhood')
+            xAxisText.text("Plane Speed")
                     .attr('transform', 'translate(' + (margin.left + drawWidth)/2 + ',' + (drawHeight + margin.top + 50) + ')')
 
-            yAxisText.text(type);
+            yAxisText.text('Plane Height');
         };
 
         var tip = d3.tip().attr('class', 'd3-tip').html(function(d) {
-            return d.Neighbourhood_Group + ', ' + d.Type + ': ' + d.Value;
+            return "Elevation: " + d.HEIGHT + ", Speed: " + d.SPEED + ", " + color + ": " + d[color];
         });
         g.call(tip);
+
+        var species = nestedData.map(function(d) {
+            return d.values[0][color];
+        });
+
+        var colorScale = d3.scaleOrdinal().domain(species).range(d3.schemeCategory10);
 
         var draw = function(data) {
             myScale(data);
             myAxis();
-        var bars = g.selectAll('rect').data(data);
-            bars.enter().append('rect')
-                .attr('x', function(d) {
-                    return xScale(d.Neighbourhood_Group);
-                })
-                .attr('y', function(d) {
-                    return drawHeight;
-                })
-                .attr('height', 0)
-                .attr('class', 'bar')
-                .on('mouseover', tip.show)
+        var circles = g.selectAll('circle').data(data);
+            circles.enter().append('circle')
+            .on('mouseover', tip.show)
                 .on('mouseout', tip.hide)
-                .attr('width', xScale.bandwidth())
-                .merge(bars)
-                .attr('y', function(d) {
-                    return yScale(d.Value);
+                .merge(circles)
+                .transition()
+                .duration(500)
+                .attr('r', 5)
+                .attr("fill", function(d) {
+                    return colorScale(d[color]);
                 })
-                .attr('height', function(d) {
-                    return drawHeight - yScale(d.Value);
+                .attr('stroke', 'black')
+                .attr('cy', height)
+                .style('opacity', 0.3)
+                .attr('cx', function(d) {
+                    return xScale(d.SPEED);
+                })
+                .attr('cy', function(d) {
+                    return yScale(d.HEIGHT);
                 });
-            bars.exit().remove();
+            circles.exit().remove();
         };
 
 
-        var filter = function(){
+        var filterAll = function(){
             var data = allData.filter(function(d) {
-                    return d.Type == type;
+                    return d.SPEED > 0 && d.HEIGHT > 0 && d.INCIDENT_YEAR >= dateMin && d.INCIDENT_YEAR <= dateMax && d.TIME_OF_DAY == time;
                 });
             return data;
         };
 
-        $("select").on('change', function(){
-            type = $(this).val();
+        var filter = function(){
+            var data = allData.filter(function(d) {
+                    return d.SPEED > 0 && d.HEIGHT > 0 && d.INCIDENT_YEAR >= dateMin && d.INCIDENT_YEAR <= dateMax;
+                });
+            return data;
+        };
+
+        $("input").on('change', function(){
+            val = $(this).val();
+            var isTime = $(this).hasClass('TIME_OF_DAY');
+            if (isTime) time = val; 
+            else color = val;
+            if (isTime == true && time == 'All') {
+                    var data = filter();
+                    draw(data);
+            } else if (isTime == true && time != 'All') {
+                var data = filterAll();
+                draw(data);
+            } else {
+                var data = filter();
+                draw(data);
+            }
+        });
+
+        $("#minDate").on('change', function(){
+            dateMin = $(this).val();
             var data = filter();
             draw(data);
         });
 
-        d3.selectAll(".place").on("change",update);
-
-        var checked = d3.selectAll(".place").property("checked")
-        console.log(checked)
-        //.on("change", update );
-
-        function update() {
-            if (d3.selectAll(".place").property('checked')) {
-                console.log($(this).val());
-                places.push($(this).val());
-            }
-            console.log(places);
-        }
+        $("#maxDate").on('change', function(){
+            dateMax = $(this).val();
+            var data = filter();
+            draw(data);
+        });
 
         var data = filter();
         draw(data);
 
     });
-
 });
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2: Seattle AirBnb</title>
+    <title>Assignment 2: Bird Plane Collisions</title>
 
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -20,23 +20,113 @@
 
 <body>
     <header id = 'index-banner'>
-        <h1>Assignment 2: Seattle AirBnb</h1>
+        <h1>Assignment 2: Bird Plane Incident</h1>
         <h2>By Ashlyn Opgrande</h2>
     </header>
     <container>
-        <h2>Seattle AirBnb Data</h2>
+        <h2>Bird and Plane Collisions in the Northwest</h2>
+        <p id="visualEncodings">Visual encodings I used here include coloring and position. In order to not make such a large amount of 
+            data look increasingly overwhelming, I wanted to avoid using too much visual encoding. Coloring here is used to show each type of 
+            data shown by the selected feature. So each circle is either colored by species, airport, or specific airline. I chose to do this 
+            so users can begin to identify patterns in the dataset. Such as, if a particular airport or species seems to have more of the incidents
+            than others. Then position is used to show where the incidents occur based on the planes speed and height. This helps us see that most 
+            incidents occur when the plane is likely on the runway rather than in the air. 
+        </p>
+        <p id="controlFeatures">Control features I used here include coloring (for species, airport, or airline), year filtering, and time of day 
+            filtering. I chose the control feature for coloring to allow users to quickly search for trends in the data by either species, airports,
+            or airlines. However, there is a lot of data being shown here, so to get more specific data users can continue to filter the data down by 
+            year or time of day. I thought all of this categorical data was essential to analysis because it does reveal some interesting data. Such 
+            as certain years have more entries and time of day seems to be a major factor in the amount of incidents that occur.
+        </p>
         <div>
-            <select id="inds">
-            <option value="Price" selected="selected">Price</option>
-            <option value="NumReviews">Amount of Reviews</option>
-            <option value="Rating">Ratings</option>
-            <option value="Beds">Beds</option>
+            <div id = "buttons">
+                <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input value="SPECIES" class="color" type="radio" name="options" id="option1" autocomplete="off">Species
+                </label>
+                <label class="btn btn-primary active">
+                    <input value="AIRPORT" class="color" type="radio" name="options" id="option2" autocomplete="off" checked>Airport
+                </label>
+                <label class="btn btn-primary active">
+                    <input value="OPERATOR" class="color" type="radio" name="options" id="option2" autocomplete="off" checked>Airline
+                </label>
+                </div>
+                <div id="time" class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-primary">
+                        <input value="All" class="TIME_OF_DAY" type="radio" name="options" id="option1" autocomplete="off"checked >All
+                    </label>
+                    <label class="btn btn-primary active">
+                        <input value="Dawn" class="TIME_OF_DAY" type="radio" name="options" id="option2" autocomplete="off" checked >Dawn
+                    </label>
+                    <label class="btn btn-primary active">
+                        <input value="Day" class="TIME_OF_DAY" type="radio" name="options" id="option2" autocomplete="off" checked >Day
+                    </label>
+                    <label class="btn btn-primary active">
+                        <input value="Dusk" class="TIME_OF_DAY" type="radio" name="options" id="option2" autocomplete="off" checked >Dusk
+                    </label>
+                    <label class="btn btn-primary active">
+                        <input value="Night" class="TIME_OF_DAY" type="radio" name="options" id="option2" autocomplete="off" >Night
+                    </label>
+                </div>
+            </div>
+            <div id="date">
+            <p>Select A Date Range</p>
+            <select id="minDate">
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+            <option value="1990"selected="selected">1990</option>
             </select>
-            <div id="place">
-                <p>Select Neighborhoods</p>
-                    <input class="place" id="myCheck" type="checkbox" name="vehicle" value="Ballard"> Ballard<br>
-                    <input class="place" id="myCheck" type="checkbox" name="vehicle" value="Beacon Hill"> Beacon Hill<br>
-                    <input class="place" id="myCheck" type="checkbox" name="vehicle" value="Capitol Hill"> Capitol Hill<br>
+            <select id="maxDate">
+            <option value="2016"selected="selected">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+            </select>
             </div>
         </div>
         <div id="vis">
